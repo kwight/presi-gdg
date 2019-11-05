@@ -1,5 +1,5 @@
-import 'package:flutter_web/cupertino.dart';
-import 'package:flutter_web/gestures.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/gestures.dart';
 import 'dart:html' as html;
 
 class Footer extends StatelessWidget {

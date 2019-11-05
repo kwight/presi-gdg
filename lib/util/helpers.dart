@@ -1,10 +1,11 @@
-import 'package:flutter_web/cupertino.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/services.dart';
 
 class KeyCode {
-  static const String left = '105';
-  static const String right = '107';
-  static const String up = '106';
-  static const String down = '108';
+  static const String left = '4295426128';
+  static const String right = '4295426127';
+  static const String up = '4295426130';
+  static const String down = '4295426129';
 }
 
 void onKey(BuildContext context, RawKeyEvent event, String leftRoute,

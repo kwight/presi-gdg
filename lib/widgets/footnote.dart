@@ -1,4 +1,4 @@
-import 'package:flutter_web/cupertino.dart';
+import 'package:flutter/cupertino.dart';
 import 'dart:html' as html;
 
 class Footnote extends StatelessWidget {
@@ -18,7 +18,7 @@ class Footnote extends StatelessWidget {
     return GestureDetector(
       onTap: () => html.window.location.href = _url,
       child: Text(
-        '${_text}: ${_url}',
+        '$_text: $_url',
         style: CupertinoTheme.of(context).textTheme.tabLabelTextStyle,
       ),
     );

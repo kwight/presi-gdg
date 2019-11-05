@@ -1,6 +1,6 @@
-import 'package:flutter_web/cupertino.dart';
-import 'package:flutter_web/material.dart';
-import 'package:meetup_2/widgets/slide.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import '../widgets/slide.dart';
 
 class Welcome extends StatelessWidget {
   @override

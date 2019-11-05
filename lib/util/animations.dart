@@ -1,4 +1,4 @@
-import 'package:flutter_web/cupertino.dart';
+import 'package:flutter/cupertino.dart';
 
 class FadeRoute extends PageRouteBuilder {
   final Widget page;
@@ -17,9 +17,9 @@ class FadeRoute extends PageRouteBuilder {
             Widget child,
           ) =>
               FadeTransition(
-                opacity: animation,
-                child: child,
-              ),
+            opacity: animation,
+            child: child,
+          ),
           transitionDuration: Duration(milliseconds: 140),
         );
 }

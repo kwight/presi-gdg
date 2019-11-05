@@ -1,5 +1,5 @@
-import 'package:flutter_web/cupertino.dart';
-import 'package:meetup_2/widgets/footnote.dart';
+import 'package:flutter/cupertino.dart';
+import '../widgets/footnote.dart';
 
 class Footnotes extends StatelessWidget {
   const Footnotes({

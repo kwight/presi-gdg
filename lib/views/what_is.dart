@@ -1,5 +1,5 @@
-import 'package:flutter_web/cupertino.dart';
-import 'package:meetup_2/widgets/slide.dart';
+import 'package:flutter/cupertino.dart';
+import '../widgets/slide.dart';
 
 class WhatIs extends StatelessWidget {
   @override

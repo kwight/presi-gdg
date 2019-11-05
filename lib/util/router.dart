@@ -1,16 +1,16 @@
-import 'package:flutter_web/cupertino.dart';
-import 'package:meetup_2/util/animations.dart';
-import 'package:meetup_2/views/getting_started.dart';
-import 'package:meetup_2/views/thank_you.dart';
-import 'package:meetup_2/views/the_future.dart';
-import 'package:meetup_2/views/welcome.dart';
-import 'package:meetup_2/views/what_doesnt_work_1.dart';
-import 'package:meetup_2/views/what_doesnt_work_2.dart';
-import 'package:meetup_2/views/what_is.dart';
-import 'package:meetup_2/views/what_is_not.dart';
-import 'package:meetup_2/views/what_looks_like.dart';
-import 'package:meetup_2/views/what_works_1.dart';
-import 'package:meetup_2/views/what_works_2.dart';
+import 'package:flutter/cupertino.dart';
+import 'animations.dart';
+import '../views/getting_started.dart';
+import '../views/thank_you.dart';
+import '../views/the_future.dart';
+import '../views/welcome.dart';
+import '../views/what_doesnt_work_1.dart';
+import '../views/what_doesnt_work_2.dart';
+import '../views/what_is.dart';
+import '../views/what_is_not.dart';
+import '../views/what_looks_like.dart';
+import '../views/what_works_1.dart';
+import '../views/what_works_2.dart';
 
 Route router(RouteSettings settings) {
   switch (settings.name) {

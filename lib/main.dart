@@ -1,6 +1,6 @@
-import 'package:flutter_web/cupertino.dart';
-import 'package:meetup_2/util/router.dart';
-import 'package:meetup_2/util/theme.dart';
+import 'package:flutter/cupertino.dart';
+import 'util/router.dart';
+import 'util/theme.dart';
 
 void main() => runApp(CupertinoApp(
       debugShowCheckedModeBanner: false,

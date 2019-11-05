@@ -1,7 +1,7 @@
-import 'package:flutter_web/cupertino.dart';
-import 'package:meetup_2/util/helpers.dart';
-import 'package:meetup_2/widgets/footer.dart';
-import 'package:meetup_2/widgets/header.dart';
+import 'package:flutter/cupertino.dart';
+import '../util/helpers.dart';
+import '../widgets/footer.dart';
+import '../widgets/header.dart';
 
 class Slide extends StatelessWidget {
   Slide({
