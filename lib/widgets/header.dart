@@ -14,7 +14,7 @@ class Header extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            'Flutter + Firebase',
+            'Flutter ❤️ Firebase',
             style: CupertinoTheme.of(context).textTheme.navTitleTextStyle,
           ),
           Text(

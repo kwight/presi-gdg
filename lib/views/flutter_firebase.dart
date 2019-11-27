@@ -7,7 +7,7 @@ class FlutterFirebase extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'Flutter ❤️s Firebase',
+      heading: 'Flutter ❤️ Firebase',
       body: <Widget>[
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
