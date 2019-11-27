@@ -20,8 +20,8 @@ class Footer extends StatelessWidget {
             text: TextSpan(
               recognizer: TapGestureRecognizer()
                 ..onTap = () => html.window.location.href =
-                    'https://www.meetup.com/Flutter-Vancouver/',
-              text: 'Flutter Vancouver ',
+                    'https://www.meetup.com/GDGCloudVancouver',
+              text: 'GDG - Cloud Vancouver ',
               style: CupertinoTheme.of(context).textTheme.navTitleTextStyle,
               children: <TextSpan>[
                 TextSpan(
@@ -31,7 +31,7 @@ class Footer extends StatelessWidget {
                   ),
                 ),
                 TextSpan(
-                  text: ' meetup.com/Flutter-Vancouver',
+                  text: ' meetup.com/GDGCloudVancouver',
                 ),
               ],
             ),
