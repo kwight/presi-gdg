@@ -29,8 +29,8 @@ class ThankYou extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () => html.window.location.href =
-                  'https://github.com/kwight/flutter-for-web-presi',
-              child: Text('github.com/kwight/flutter-for-web-presi'),
+                  'https://github.com/kwight/presi-gdg',
+              child: Text('https://github.com/kwight/presi-gdg'),
             ),
           ],
         ),
