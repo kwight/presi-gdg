@@ -3,32 +3,33 @@ import '../widgets/footnote.dart';
 import '../widgets/slide.dart';
 import '../widgets/footnotes.dart';
 
-class WhatDoesntWork2 extends StatelessWidget {
+class DartLang2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'What doesn\'t work?',
+      heading: 'Dart language features',
       body: <Widget>[
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• stateful hot reload'),
-            Text('• stepthrough debugging in IDEs'),
-            Text('• "Not all Flutter APIs are implemented yet."'),
-            Text('• "Performance work is only just beginning."'),
+            Text('• async/await'),
+            Text('• arrow functions'),
+            Text('• spread and cascade operators'),
+            Text('• heads up: libraries and visibility'),
           ],
         ),
         Footnotes(
           notes: [
             Footnote(
-              text: 'Limitations',
-              url: 'https://github.com/flutter/flutter_web#limitations',
+              text: 'Library visibility',
+              url:
+                  'https://dart.dev/guides/language/language-tour#libraries-and-visibility',
             ),
           ],
         ),
       ],
-      leftRoute: '/6',
-      rightRoute: '/8',
+      leftRoute: '/4',
+      rightRoute: '/6',
     );
   }
 }

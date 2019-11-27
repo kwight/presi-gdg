@@ -3,33 +3,32 @@ import '../widgets/slide.dart';
 import '../widgets/footnotes.dart';
 import '../widgets/footnote.dart';
 
-class WhatIs extends StatelessWidget {
+class WorkingWithFlutter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'What is Flutter?',
+      heading: 'Working with Flutter',
       body: <Widget>[
-        Text('Flutter is an open-source, cross-platform UI toolkit. 🎉'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• BSD-3'),
-            Text('• stewarded by Google'),
-            Text('• unopinionated'),
-            Text('• written in Dart'),
+            Text('• installation'),
+            Text('• Flutter CLI (`doctor`, `create`)'),
+            Text('• Android Studio, IntelliJ IDEA, VS Code'),
+            Text('• "Everything is a widget."'),
           ],
         ),
         Footnotes(
           notes: [
             Footnote(
-              text: 'Flutter',
-              url: 'https://flutter.dev',
+              text: 'Flutter installation',
+              url: 'https://flutter.dev/docs/get-started/install',
             ),
           ],
         ),
       ],
-      leftRoute: '/',
-      rightRoute: '/2',
+      leftRoute: '/5',
+      rightRoute: '/7',
     );
   }
 }

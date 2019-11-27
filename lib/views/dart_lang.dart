@@ -1,34 +1,33 @@
 import 'package:flutter/cupertino.dart';
-import '../widgets/footnote.dart';
 import '../widgets/slide.dart';
 import '../widgets/footnotes.dart';
+import '../widgets/footnote.dart';
 
-class WhatWorks2 extends StatelessWidget {
+class DartLang extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'What works?',
+      heading: 'Dart language features',
       body: <Widget>[
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• pure Dart packages'),
-            Text('• hot restart*'),
-            Text('• Dart DevTools (Inspector, Logs)'),
-            Text('• Chrome DevTools debugging'),
+            Text('• Isolates (multi-threading)'),
+            Text('• Futures (Promises)'),
+            Text('• first-class functions, lexical scope'),
           ],
         ),
         Footnotes(
           notes: [
             Footnote(
-              text: 'Dart DevTools',
-              url: 'https://flutter.github.io/devtools/',
+              text: 'Dart language tour',
+              url: 'https://dart.dev/guides/language/language-tour',
             ),
           ],
         ),
       ],
-      leftRoute: '/4',
-      rightRoute: '/6',
+      leftRoute: '/3',
+      rightRoute: '/5',
     );
   }
 }

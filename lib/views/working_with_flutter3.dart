@@ -1,29 +1,30 @@
 import 'package:flutter/cupertino.dart';
+import '../widgets/slide.dart';
 import '../widgets/footnote.dart';
 import '../widgets/footnotes.dart';
-import '../widgets/slide.dart';
 
-class WhatLooksLike extends StatelessWidget {
+class WorkingWithFlutter3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'What does it look like?',
+      heading: 'Working with Flutter',
       body: <Widget>[
+        Text(
+            'Thanks to Dart, Flutter compiles to native code for many platforms.'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• markup'),
-            Text('• routing'),
-            Text('• build sizes'),
-            Text('• project creation'),
-            Text('• workflow'),
+            Text('• CLI (`dart2native`)'),
+            Text('• Fuchsia'),
+            Text('• Raspberry Pi'),
+            Text('• IoT, Android wearables, ...'),
           ],
         ),
         Footnotes(
           notes: [
             Footnote(
-              text: 'Filewatcher',
-              url: 'https://github.com/filewatcher/filewatcher',
+              text: 'Fuchsia',
+              url: 'https://fuchsia.dev/',
             ),
           ],
         ),

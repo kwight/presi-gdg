@@ -21,29 +21,6 @@ class ThankYou extends StatelessWidget {
         Column(
           children: <Widget>[
             Text(
-              'Planets Demo',
-              style: TextStyle(
-                fontStyle: FontStyle.italic,
-                // height: 1.2,
-              ),
-            ),
-            Text(
-              'Code: Sergi Martínez',
-              style: TextStyle(
-                height: 1.2,
-              ),
-            ),
-            Text(
-              'Design: Vijay Verma',
-              style: TextStyle(
-                height: 1.2,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          children: <Widget>[
-            Text(
               'Slides are available at',
               style: TextStyle(
                 fontStyle: FontStyle.italic,
@@ -58,8 +35,8 @@ class ThankYou extends StatelessWidget {
           ],
         ),
       ],
-      leftRoute: '/9',
-      rightRoute: '/10',
+      leftRoute: '/12',
+      rightRoute: '/13',
       includeMasthead: false,
     );
   }

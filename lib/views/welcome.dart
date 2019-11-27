@@ -18,11 +18,11 @@ class Welcome extends StatelessWidget {
               style: TextStyle(
                 fontStyle: FontStyle.italic,
                 fontSize: 22,
-                height: 1.5,
+                height: 1.8,
               ),
             ),
             Text(
-              'Flutter + Firebase',
+              'Flutter ❤️ Firebase',
               style: CupertinoTheme.of(context)
                   .textTheme
                   .navLargeTitleTextStyle
