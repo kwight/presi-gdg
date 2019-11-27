@@ -17,16 +17,17 @@ class Welcome extends StatelessWidget {
               'Welcome to',
               style: TextStyle(
                 fontStyle: FontStyle.italic,
+                fontSize: 22,
                 height: 1.5,
               ),
             ),
             Text(
-              'Flutter for Web',
+              'Flutter + Firebase',
               style: CupertinoTheme.of(context)
                   .textTheme
                   .navLargeTitleTextStyle
                   .copyWith(
-                    fontSize: 120,
+                    fontSize: 100,
                     height: 1,
                   ),
             ),
@@ -35,12 +36,27 @@ class Welcome extends StatelessWidget {
         Column(
           children: <Widget>[
             Text(
-              'June 11, 2019',
+              'November 27, 2019',
               style: TextStyle(
-                height: 1.2,
+                fontStyle: FontStyle.italic,
+                fontSize: 22,
+                height: 0.8,
               ),
             ),
-            Text('Flutter Vancouver Meetup Group'),
+            Text('Google Developers Group - Cloud Vancouver'),
+          ],
+        ),
+        Column(
+          children: <Widget>[
+            Text(
+              'Sponsored by',
+              style: TextStyle(
+                fontStyle: FontStyle.italic,
+                fontSize: 22,
+                height: 0.8,
+              ),
+            ),
+            Text('Mobify'),
           ],
         ),
         Column(
@@ -49,7 +65,8 @@ class Welcome extends StatelessWidget {
               'Presented by',
               style: TextStyle(
                 fontStyle: FontStyle.italic,
-                height: 1.2,
+                fontSize: 22,
+                height: 0.8,
               ),
             ),
             Text('Kirk Wight'),
