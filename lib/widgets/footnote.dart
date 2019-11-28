@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'dart:html' as html;
+import 'mouseover_cursor.dart';
 
 class Footnote extends StatelessWidget {
   const Footnote({
@@ -17,9 +18,11 @@ class Footnote extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => html.window.location.href = _url,
-      child: Text(
-        '$_text: $_url',
-        style: CupertinoTheme.of(context).textTheme.tabLabelTextStyle,
+      child: MouseOverCursor(
+        child: Text(
+          '$_text: $_url',
+          style: CupertinoTheme.of(context).textTheme.tabLabelTextStyle,
+        ),
       ),
     );
   }
