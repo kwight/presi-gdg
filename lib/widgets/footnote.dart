@@ -17,7 +17,7 @@ class Footnote extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => html.window.location.href = _url,
+      onTap: () => html.window.open(_url, 'tab'),
       child: MouseOverCursor(
         child: Text(
           '$_text: $_url',
