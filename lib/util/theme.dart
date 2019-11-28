@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 
 CupertinoThemeData themeData() {
   return CupertinoThemeData(
+    brightness: Brightness.light,
     barBackgroundColor: Color.fromRGBO(5, 90, 157, 1),
     primaryColor: Color.fromRGBO(47, 185, 246, 1),
     textTheme: CupertinoTextThemeData(
